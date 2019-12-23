@@ -1,0 +1,38 @@
+(valorile lui eax fiind cele returnate)ystery 1: primeste char* si returneaza lungimea sirului dat ca parametru.Se parcurge sirur cu ajutorul registrului edi si se incrementeaza in eax lungimea.
+
+
+prototip: int string_lenght(char *)
+----------------------------------------------------------------------------
+mystery 2: primeste char ,char* si cauta caracterul dat ca parametru in al doilea sir dat ca parametru si eax devine 0 daca e adevarat si daca nu e adevarat se seteaza toti biti lui eax pe 1 adica valoarea 0xffffffff
+
+prototip:int search(char ,char *)
+----------------------------------------------------------------------------
+
+mystery 3: primeste ca argument char*,char* si un int si verifica daca primele n caractere sunt aceleasi la ambele siruri ,n fiind al treilea parametru de tip int,daca sunt aceleasi eax e 0 daca nu eax e 1 (valorile lui eax fiind cele returnate)
+
+prototip: int check_characters(char *,char *,int)
+----------------------------------------------------------------------------
+mystery 4: primeste char*,char*,int,si copieaza primele n caractere din al doilea sir peste primele din primul sir,n fiind al treilea parametru de tip int
+
+prototip: void over_write(char *,char *,int)
+----------------------------------------------------------------------------
+mystery5: primeste char,si verifica daca e cifra sau nu in functie de codul ascii ,daca nu e eax ia valoarea 0 iar daca e ,eax ia valoarea 1 (valorile lui eax fiind cele returnate)
+
+prototip: int check_number(char )
+----------------------------------------------------------------------------
+mystery 6: primeste un char* si inverseaza sirul de caractere.Cu ajutorul lui mistery1 calculeaza lungimea sirului apoi 
+
+prototip: void reverse(char *)
+----------------------------------------------------------------------------
+mystery 7: primeste un char* si transforma sirul de caractere in int (ca functia atoi din c)
+
+prototip: void to_int(char *)
+----------------------------------------------------------------------------
+mystery 8: primeste doua stringuri si un int si cauta in primul string primele n caractere din stringul 2 unde n este int-ul dat ca parametru
+
+prototip: void search_characters(char *,char *,int)
+----------------------------------------------------------------------------
+mystery 9:primeste doua stringuri si doua int-uri si cauta pe al doilea string in primul intre cele doua pozitii date de cele doua int-uri
+
+prototip: void search_string(char *,char *,int ,int)
+----------------------------------------------------------------------------
